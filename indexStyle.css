@@ -1,0 +1,96 @@
+/* background color*/
+
+* {
+  margin: 15px;
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    
+  }
+  
+  ul a:hover {
+    background-color: #000;
+      border-bottom: 3px solid red;
+  }
+  
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --third-bg-color: #4a4646;
+    --text-color: white;
+    --main-color: #ebac40;
+    --second-main-color: #e515c6;
+    --third-main-color: #e1d8d8;
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+h1{
+    text-align: center;
+    color: rgb(201, 173, 15);
+    
+}
+
+.info{
+    text-align: center;
+    color: brown;
+}
+
+.info:hover{
+    box-shadow: 0 0 15px var(--third-bg-color),
+    0 0 35px var(--third-bg-color),
+    0 0 55px var(--third-bg-color);
+}
+
+#pics{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    }
+#pics:hover{
+    box-shadow: 0 0 15px var(--third-bg-color),
+    0 0 35px var(--third-bg-color),
+    0 0 55px var(--third-bg-color);
+}
+
+.skill{
+    text-align: center;
+}
+
+
+footer {
+  text-align: center;
+}
+footer a{
+color: rgb(241, 227, 92);
+}
+}

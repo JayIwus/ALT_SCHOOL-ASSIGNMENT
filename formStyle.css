@@ -1,0 +1,268 @@
+/* styles.css */
+
+.login{
+  text-align: right;
+  font-family: AlmarenaBold,sans-serif;
+  font-weight: 900;
+}
+
+.learnset {
+  font-size: 3.1875rem !important;
+  line-height: 40px !important;
+}
+
+.learnset{
+    font-family: AlmarenaDisplayBold, sans-serif;
+    color: #000812;
+    font-size: 3.1875rem;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: -.51px;
+}
+
+.learnset {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+:-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.style_telephone{
+  font-size: .75rem;
+  font-family: AlmarenaDisplayLight, sans-serif;
+  line-height: 180%;
+  letter-spacing: .02rem;
+  color: #000812;
+}
+
+body {
+  font-family: AlmarenaDisplayRegular, sans-serif;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.left-section h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.left-section p {
+  margin-top: auto;
+  font-size: 12px;
+  color: #666;
+}
+
+.right-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.right-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 15px;
+  background-color: #5c67f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3b47d6;
+}
+
+.right-section p a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+
+.right-section p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+  
+/* Style the navigation menu */
+.navLink {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  
+}
+
+/* Navigation links */
+.navLink a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; 
+  text-align: center; 
+  border-bottom: 3px solid transparent;
+}
+
+/* Add a background color on mouse-over */
+.navLink a:hover {
+  background-color: #000;
+    border-bottom: 3px solid red;
+}
+
+/* Style the current/active link */
+ .active {
+  background-color: #04AA6D;
+}
+
+/* scrollbar */
+
+.right-section {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; 
+  max-height: 100vh; 
+}
+
+/* Custom scrollbar styles for .right-section */
+.right-section::-webkit-scrollbar {
+  width: 10px; 
+}
+
+.right-section::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+  border-radius: 10px;
+}
+
+.right-section::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px;
+  border: 2px solid #f1f1f1; /
+}
+
+.right-section::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+/* Optional: Adjust scrollbar width on hover */
+.right-section:hover::-webkit-scrollbar-thumb {
+  width: 12px; 
+}
+
+/* For Firefox */
+.right-section {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* Existing styles... */
+
+.right-section {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; 
+  max-height: 100vh; 
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+
+.right-section::-webkit-scrollbar {
+  display: none;
+}
